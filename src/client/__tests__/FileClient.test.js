@@ -1,7 +1,7 @@
 import {MockWxHttpClient} from '../../http/MockWxHttpClient';
 import {FileClient} from '../FileClient';
 import {errorResponseHandler} from '../../KintoneRestAPIClientWeChatMP';
-import {KintoneRestAPIError} from '@kintone/rest-api-client/esm/KintoneRestAPIError';
+import {KintoneRestAPIError} from '@kintone/rest-api-client/esm/error/KintoneRestAPIError';
 
 describe('FileClient', () => {
   let mockClient;

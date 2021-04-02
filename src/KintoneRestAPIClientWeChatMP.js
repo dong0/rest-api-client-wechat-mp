@@ -3,7 +3,7 @@ import {RecordClient} from '@kintone/rest-api-client/esm/client/RecordClient';
 import {AppClient} from '@kintone/rest-api-client/esm/client/AppClient';
 import {FileClient} from './client/FileClient';
 import {Base64} from 'js-base64';
-import {KintoneRestAPIError} from '@kintone/rest-api-client/esm/KintoneRestAPIError';
+import {KintoneRestAPIError} from '@kintone/rest-api-client/esm/error/KintoneRestAPIError';
 import {WxHttpClient} from './http/WxHttpClient';
 
 export const errorResponseHandler = (error) => {

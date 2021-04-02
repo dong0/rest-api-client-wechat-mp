@@ -5,7 +5,7 @@
   "main": "dist/kintone-rest-api-client-wechat-mp.js",
   "scripts": {
     "eslint": "eslint src",
-    "build": "webpack",
+    "build": "webpack --mode=production",
     "build:dev": "webpack --mode=development",
     "test": "jest"
   },
@@ -44,7 +44,7 @@
     "jest": "26.6.3",
     "js-base64": "3.6.0",
     "qs": "6.10.1",
-    "webpack": "5.28.0",
+    "webpack": "4.46.0",
     "webpack-cli": "4.6.0"
   }
 }

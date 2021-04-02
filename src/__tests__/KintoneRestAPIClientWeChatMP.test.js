@@ -1,6 +1,6 @@
 import {KintoneRestAPIClientWeChatMP, errorResponseHandler} from '../KintoneRestAPIClientWeChatMP';
 import {Base64} from 'js-base64';
-import {KintoneRestAPIError} from '@kintone/rest-api-client/esm/KintoneRestAPIError';
+import {KintoneRestAPIError} from '@kintone/rest-api-client/esm/error/KintoneRestAPIError';
 
 describe('KintoneRestAPIClientWeChatMP', () => {
   describe('constructor', () => {
